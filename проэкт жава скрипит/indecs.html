@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>карточка меня)</title>
+		<link rel="stylesheet" type="text/css" href="css/itc-slider.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header class="header" id="header">
+		<div class="container container_header">
+			<h1 class="logo">LB</h1>
+			<nav class="nav">
+				<ul class="nav_list">
+					<li class="nav_item"><a href="#hero_block" class="nav_link">ГЛАВНАЯ</a></li>
+					<li class="nav_item"><a href="#about" class="nav_link">ОБ АВТОРЕ</a></li>
+					<li class="nav_item"><a href="#video" class="nav_link">РАБОТЫ</a></li>
+					<li class="nav_item"><a href="#rchachnuye_cartinky" class="nav_link">ПРОЦЕСС</a></li>
+					<li class="nav_item"><a href="#footer" class="nav_link">КОНТАКТЫ</a></li>
+				</ul>
+			</nav>
+			<button class="burger" id="burgerID">
+				<div class="burger_line"></div>
+				<div class="burger_line"></div>
+				<div class="burger_line"></div>
+			</button>
+		</div>
+		</header>
+	<main>
+		<section class="shop">
+			<div class="container">
+				<h1 class="shop__title">да</h1>
+				<div class="itc-slider" data-slaider="itc-slider">
+				  <div class="itc-slider-wrapper">
+				    <div class="itc-slider-items">
+				      <div class="itc-slider-item">
+				      	<!-- <img src="img/yyy.jpg"> -->
+				      	<img src="img/yyy.jpg">
+				      </div>
+				      <div class="itc-slider-item">
+				      	<img src="img/uuu.jpg">
+				      </div>
+				      <div class="itc-slider-item">
+				      	<img src="img/aaa.jpg">
+				      </div>
+				    </div>
+				  </div>
+				  <button class="itc-slider-btn itc-slider-btn-prev"></button>
+				  <button class="itc-slider-btn itc-slider-btn-next"></button>
+				</div>
+				<button class="shop__button" id = "btn" onclick="buy()">купить</button>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h2 class="shop__title"></h2>
+		</section>
+		<section class="time">
+			<div class="time_container">
+				<div class="time_content">
+				</div>
+			</div>
+		</section>
+		<section class="video_pleer">
+			<video id="video_id" class="video" autoplay muted loop>
+				<source src="VIDEO/Как пройти Halo за час [Спидран в деталях].mp4" type="video/mp4">
+			</video>
+			<div class="video_div">
+				<button class="video-bg_btn" id="stop" onclick="cl_stop()">stop</button>
+				<button class="video-bg_btn" id="audio" onclick="audio">audio</button>
+				<button class="video-bg_btn" id="prev">prev</button>
+				<button class="video-bg_btn" id="next">next</button>
+			</div>
+		</section>
+		<section>
+			<div class="busket_content">
+				<button class="busket_btn">
+					<img src="img/корзина.png">
+				</button>
+				<p class="busket_price">0</p>
+			</div>
+		</section>
+	</main>
+		<script type="text/javascript" src="scripts/script.js"></script>
+		<script type="text/javascript" src="scripts/itc-slider.js"></script>
+		<script type="text/javascript" src="scripts/video.js"></script>
+	</body>
+	</html>
